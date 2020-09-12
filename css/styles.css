@@ -1,0 +1,72 @@
+body {
+    
+    color: black;
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Header **/
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 1px solid black;
+}
+/** Name **/
+#header-nav a {
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar .container-fluid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/**Button**/
+.navbar-header button,navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+}
+  
+/**Title**/
+
+.text-center {
+    font-family: 'Times New Roman', Times, serif;
+}
+/**Banner**/
+.row span {
+    font-size: 1.2em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    color: black;
+    background-color: blue;
+    top: 0px; 
+    left: 0px;
+    clear: both;
+}
+/** Description **/
+.row div {
+    background-color: gray;
+    position: relative;
+    float: left;
+    margin-bottom: 25px;
+    padding:40px 20px 20px 20px;
+    border: 1px solid black;
+    color: cyan;
+    box-shadow: 5px 5px 5px black; 
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+a {
+    color: cyan;
+}
