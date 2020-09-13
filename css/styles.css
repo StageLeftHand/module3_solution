@@ -59,13 +59,14 @@ body {
     padding:40px 20px 20px 20px;
     border: 1px solid black;
     color: cyan;
-    box-shadow: 5px 5px 5px black; 
+    box-shadow: 5px 5px 5px black;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    
 }
 a {
     color: cyan;
