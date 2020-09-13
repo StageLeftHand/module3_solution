@@ -17,6 +17,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .navbar .container-fluid {
